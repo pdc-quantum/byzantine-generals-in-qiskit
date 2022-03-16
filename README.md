@@ -5,7 +5,7 @@ A quantum solution using qutrits or ququatrits and a turn-based game
 
 Alice is the commanding general. In her army equipped at the cutting edge of modern technology, the lieutenant generals Bob, Charlieand Dave communicate with Alice and with each other through pairwise authenticated classical and quantum channels.
 
-To order an attack on the enemy that the army surrounds or to initiate a retreat, Alice sends a single-bit order $m$ to each lieutenant.
+To order an attack on the enemy that the army surrounds or to initiate a retreat, Alice sends a single-bit order m to each lieutenant.
 
 Traitors, including Alice herself, could be present who will try to confuse the faithful parties. In this seminal [article](https://lamport.azurewebsites.net/pubs/byz.pdf) by Lamport, Shostak and Marshal, it was proved that no classical solution with fewer than 3m + 1 generals (including Alice) can cope with m traitors.
 
