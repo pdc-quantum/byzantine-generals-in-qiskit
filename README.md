@@ -9,11 +9,15 @@ To order an attack on the enemy that the army surrounds or to initiate a retreat
 
 Traitors could be present who will try to confuse the faithful parties. In this seminal [article](https://lamport.azurewebsites.net/pubs/byz.pdf) by Lamport, Shostak and Marshal, it was proved that no classical solution with fewer than 3m + 1 generals (including Alice) can cope with m traitors.
 
+
+
 ### Quantum solution to the case of three generals with possibly a traitor
 
-This case is also ccalled 'the liar detection problem'. The solution is described in the following [article](https://arxiv.org/abs/quant-ph/0107127#:~:text=Like%20Quantum%20Key%20Distribution%20).
+A [quantum solution](https://arxiv.org/pdf/quant-ph/0107127v1.pdf) to this problem was proposed, based on qutrits
 
-The first notebook in this repository presents a protocol using this solution and where the traitor detection is achieved by a  turn-based game between the two lieutenants . 
+A derived solution using five qubits is described in this [article](https://arxiv.org/pdf/quant-ph/0210079.pdf) and was [experimentally demonstrated using four-photon entanglement](https://arxiv.org/pdf/0710.0290v2.pdf)
+
+The first notebook in this repository presents a protocol using this latter solution. The traitor detection is achieved by a turn-based game between the two lieutenants. 
 
 ### Quantum solution to the case of four generals with possibly two traitors
 
