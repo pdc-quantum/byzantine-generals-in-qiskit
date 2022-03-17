@@ -7,7 +7,7 @@ The Byzantine army is now equipped at the cutting edge of modern technology. The
 
 To order an attack on the enemy that the army surrounds or to initiate a retreat, the commander general sends a single-bit order m to each lieutenant.
 
-Traitors could be present who will try to confuse the faithful parties. In this seminal [article](https://lamport.azurewebsites.net/pubs/byz.pdf) by Lamport, Shostak and Marshal, it was proved that no classical solution with fewer than 3m + 1 generals (including Alice) can cope with m traitors.
+Traitors could be present who will try to confuse the faithful parties. In this seminal [article](https://lamport.azurewebsites.net/pubs/byz.pdf) by Lamport, Shostak and Marshal, it was proved that no classical solution with fewer than 3m + 1 generals can cope with m traitors.
 
 
 
