@@ -74,10 +74,10 @@ Step 5: Lieutenants who received consistent but different messages m exchange in
 - A faithful recipient noticing an abnormally high frequency of failure will label the sender 'potential traitor'.
 
 
-- A faithful recipient noticing a frequency of failure normally expected from a faithful sender will label the sender 'faithful'.
+- A faithful recipient noticing a frequency of failure normally expected from a faithful sender will label the sender 'trustable'.
 
 
-- After completing two games, any faithful lieutenant reports any potential traitor to all lieutenants they know to be faithful.
+- After completing two games, any faithful lieutenant reports any potential traitor to all lieutenants they know to be trustable.
 
 
 - If a faithful lieutenant discovers two potential traitors, he concludes that they are indeed traitors and that the commanding general may be faithful. He follows the order sent to him.
@@ -86,7 +86,7 @@ Step 5: Lieutenants who received consistent but different messages m exchange in
 - If two faithful lieutenants report the same potential traitor, they conclude that this latter is indeed a traitor and that the commanding general may be faithful. They both follow the order sent to them.
 
 
-- If two lieutenants assess that each of them is faithful and only one of them denounces a potential traitor, they conclude that this latter and the commanding general are traitors. The two faithful lieutenants agree on a common strategy which seems reasonable to them.
+- If two lieutenants assess that each of them is trustable and only one of them denounces a potential traitor, they conclude that this latter and the commanding general are traitors. The two faithful lieutenants agree on a common strategy which seems reasonable to them.
 
 
-- If three lieutenants assess that each of them is faithful and no potential traitor is detected, they conclude that the commanding general is a traitor. They follow a majority strategy. 
+- If three lieutenants assess that each of them is trustable and no potential traitor is detected, they conclude that the commanding general is a traitor. They follow a majority strategy. 
