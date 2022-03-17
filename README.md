@@ -1,7 +1,7 @@
-# byzantine-generals-in-qiskit
-A quantum solution using qutrits or ququatrits and a turn-based game
+# Byzantine Generals in Qiskit
+Quantum solutions using qutrits or ququatrits and a turn-based game
 
-## Byzantine generals problem
+## The Byzantine generals problem
 
 The Byzantine army is now equipped at the cutting edge of modern technology. The lieutenant generals communicate with the commander general and with each other through pairwise authenticated classical and quantum channels.
 
