@@ -65,7 +65,7 @@ Step 5: Lieutenants who received consistent but different messages m exchange in
 - If all lieutenants say they received the same message, no game takes place. They follow the order of the commanding general.
 
 
-- Otherwise two games are played, each between two lieutenants whose messages they say they received are different. Faithful lieutnants who declared to each other that they received the same message trust each other.
+- Otherwise two games are played, each between two lieutenants whose messages they say they received are different. Faithful lieutnants who declared to each other that they received the same message trust each other. They refrain from playing against each other. 
 
 
 - In a game, the lieutenants draw whoever starts. They take turns sending an index that must match 2 or 3 in the quadrit list of the recipient, which takes note of the frequency of failure. No index is used twice during this game which ends after a pre-agreed number of rounds.
