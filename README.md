@@ -17,7 +17,7 @@ The first notebook in this repository presents a protocol using this solution an
 
 ### Quantum solution to the case of four generals with possibly two traitors
 
-Now consider a quantum solution for four generals (including Alice) with two traitors.
+Now consider a quantum solution for four generals (including Alice) with two traitors. The second notebook in this repository presents  this solution.
 
 To achieve _detectable broadcast_ the protocol must, after termination, satisfy the following conditions:
 
@@ -55,7 +55,7 @@ Step 4: A lieutenants which has flag = -1 doesn't execute any order. The number 
 Step 5: Lieutenants who received consistent but different messages m exchange information to uncover a potential traitor. Here the protocol is modified from those published: everything is done so that no lieutenant get an advantage: they start playing turn-based games.  
 
 
-#### turn-based  game rules for four generals and up to two traitors:
+#### Turn-based  game rules for four generals and up to two traitors:
 
 
 - If all lieutenants say they received the same message, no game takes place. They follow the order of the commanding general.
