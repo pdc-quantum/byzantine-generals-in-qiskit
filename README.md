@@ -17,21 +17,13 @@ A [quantum solution](https://arxiv.org/pdf/quant-ph/0107127v1.pdf) to this probl
 
 A derived solution using five qubits is described in this [article](https://arxiv.org/pdf/quant-ph/0210079.pdf) and was [experimentally demonstrated using four-photon entanglement](https://arxiv.org/pdf/0710.0290v2.pdf)
 
-The first notebook in this repository presents a protocol using this latter solution. The traitor detection is achieved by a turn-based game between the two lieutenants. 
+The first notebook in this repository presents a protocol using this latter solution and it extension to 4 generals case. The traitor detection is achieved by a turn-based game between the lieutenants. The second notebook is a first version limited to three generals based on the same reference.
 
-### Quantum solution to the case of four generals with possibly two traitors
+### Solutions using pair of qubits each mapped to a qutrit:
 
-Now consider a quantum solution for four generals (including Alice) with two traitors. The second notebook in this repository presents  this solution.
+These solutions are presented in the third notebook
 
-To achieve _detectable broadcast_ the protocol must, after termination, satisfy the following conditions:
-
-1. All faithful generals agree with a common plan of action.
-
-
-2. If the commanding general is faithful, then all faithful generals agree with the commanding general’s plan
-
-Note that these conditions are always satisfied in the trivial case of none or only one faithful lieutenant.
-
+### Protocol in the case of 4 generals and eight qubits
 
 #### Distribute entanglement
 
