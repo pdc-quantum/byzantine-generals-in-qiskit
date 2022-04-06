@@ -15,10 +15,11 @@ Traitors could be present who will try to confuse the faithful parties. In this 
 
 A [quantum solution](https://arxiv.org/pdf/quant-ph/0107127v1.pdf) to this problem was proposed, based on qutrits
 
-A derived solution using five qubits is described in this [article](https://arxiv.org/pdf/quant-ph/0210079.pdf) and was [experimentally demonstrated using four-photon entanglement](https://arxiv.org/pdf/0710.0290v2.pdf)
+A derived solution using five qubits is described by Adan Cabello in this [article](https://arxiv.org/pdf/quant-ph/0210079.pdf) and was [experimentally demonstrated using four-photon entanglement](https://arxiv.org/pdf/0710.0290v2.pdf)
 
-The [first notebook](https://github.com/pdc-quantum/byzantine-generals-in-qiskit/blob/main/byzantine-agreement.ipynb) in this repository presents a protocol using this latter solution. The traitor detection is achieved by a turn-based game between the lieutenants. 
+The [first notebook](https://github.com/pdc-quantum/byzantine-generals-in-qiskit/blob/main/byzantine-agreement.ipynb) in this repository presents a protocol using this latter solution. The traitor detection is achieved by a turn-based game between the lieutenants.
 
+The [third notebook](https://github.com/pdc-quantum/upgraded-byzantine-generals-in-qiskit/blob/main/byzantine-agreement.ipynb) includes a solution using 5 qubits for the case of the four generals, largely inspired by the Cabello protocol for three generals.
 ### Solutions using pair of qubits each mapped to a qutrit:
 
 These solutions are presented in the [second notebook](https://github.com/pdc-quantum/byzantine-generals-in-qiskit/blob/main/qu-n-it-byzantine-agreement.ipynb).
