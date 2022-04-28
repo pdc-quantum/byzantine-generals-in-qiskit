@@ -54,7 +54,9 @@ Step 4: A lieutenants which has flag = -1 doesn't execute any order. The number 
 Step 5: Lieutenants who received consistent but different messages m exchange information to uncover a potential traitor. Here the protocol is modified from those published: everything is done so that no lieutenant get an advantage: they start playing turn-based games.  
 
 
-#### Turn-based  game rules for four generals and up to two traitors:
+### Turn-based  game rules for four generals and up to two traitors:
+
+#### *valid for both notebooks*
 
 
 - If all lieutenants say they received the same message, no game takes place. They follow the order of the commanding general.
@@ -63,22 +65,22 @@ Step 5: Lieutenants who received consistent but different messages m exchange in
 - Otherwise two games are played, each between two lieutenants whose messages they say they received are different. Faithful lieutnants who declared to each other that they received the same message trust each other. They refrain from playing against each other. 
 
 
-- In a game, the lieutenants draw whoever starts. They take turns sending an index that must match 2 or 3 in the quadrit list of the recipient, which takes note of the frequency of failure. No index is used twice during this game which ends after a pre-agreed number of rounds.
+- In a game, the lieutenants draw whoever starts. They take turns sending an index that must match the correct expectation in the list of the recipient, which takes note of the frequency of failure. No index is used twice during this game which ends after a pre-agreed number of rounds.
 
 
-- A faithful recipient noticing an abnormally high frequency of failure will label the sender 'potential traitor'. Otherwise the  the recipient will label the sender 'trustable'.
+- A faithful recipient noticing an abnormally high frequency of failure will label the sender 'doubtful'. Otherwise the recipient will label the sender 'trustable'.
 
 
-- After completing two games, any faithful lieutenant reports any potential traitor to all lieutenants they trust.
+- After completing two games, any faithful lieutenant reports any doubtful lieutenant to all lieutenants they trust.
 
 
-- If a faithful lieutenant discovers two potential traitors, he concludes that they are indeed traitors and that the commanding general may be faithful. He follows the order sent to him.
+- If a faithful lieutenant discovers two doubtful lieutenants, he concludes that they are indeed traitors and that the commanding general may be faithful. He follows the order sent to him.
 
 
-- If two faithful lieutenants trusting each other report the same potential traitor, they conclude that this latter is indeed a traitor and that the commanding general may be faithful. They both follow the order sent to them.
+- If two faithful lieutenants trusting each other report the same doubtful lieutenant, they conclude that this latter is indeed a traitor and that the commanding general may be faithful. They both follow the order sent to them.
 
 
-- If one out of two faithful lieutenants trusting each other denounces a potential traitor, they conclude that this latter and the commanding general are traitors. The two faithful lieutenants agree on a common strategy which seems reasonable to them.
+- If one out of two faithful lieutenants trusting each other denounces the third lieutenant as doubtful, the faithful lieutenants conclude that this latter and the commanding general are traitors. The two faithful lieutenants agree on a common strategy which seems reasonable to them.
 
 
 - If the three lieutenants are trusting each other at the end, they conclude that the commanding general is a traitor. They follow a majority strategy. 
