@@ -11,7 +11,7 @@ Traitors could be present who will try to confuse the faithful parties. In this 
 
 
 
-### Quantum solution using four qubits to the case of three generals with possibly a traitor 
+### Quantum solution using four qubits to the case of three generals with possibly two traitors 
 
 A [quantum solution](https://arxiv.org/pdf/quant-ph/0107127v1.pdf) to this problem was proposed, based on qutrits
 
