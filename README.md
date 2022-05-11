@@ -1,5 +1,4 @@
 # Byzantine Generals in Qiskit
-Quantum solutions using qutrits or ququatrits and a turn-based game
 
 ## The Byzantine generals problem
 
