@@ -19,7 +19,7 @@ A derived solution using five qubits is described by Adan Cabello in this [artic
 The [first notebook](https://github.com/pdc-quantum/byzantine-generals-in-qiskit/blob/main/byzantine-agreement.ipynb) in this repository presents a protocol using this latter solution. The traitor detection is achieved by a turn-based game between the lieutenants.
 
 ### Quantum solution using five qubit to the case of four generals with possibly two traitors
-The [first notebook](https://github.com/pdc-quantum/byzantine-generals-in-qiskit/blob/main/byzantine-agreement.ipynb) includes also a solution using 5 qubits for the case of the four generals, largely inspired by the Cabello protocol for three generals.
+The [first notebook](https://github.com/pdc-quantum/byzantine-generals-in-qiskit/blob/main/byzantine-agreement.ipynb) includes also a solution using [5 qubits for the case of the four generals](https://medium.com/geekculture/byzantine-generals-turn-to-quantum-ab81bd938cc2), largely inspired by the Cabello protocol for three generals.
 
 A detailed description of the agreement process can be found in the [second notebook](https://github.com/pdc-quantum/byzantine-generals-in-qiskit/blob/main/game-scenarios-byzantine-agreement.ipynb).
 
