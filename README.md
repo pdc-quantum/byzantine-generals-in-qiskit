@@ -21,8 +21,13 @@ The [first notebook](https://github.com/pdc-quantum/byzantine-generals-in-qiskit
 ### Quantum solution using five qubit to the case of four generals with possibly two traitors
 The [first notebook](https://github.com/pdc-quantum/byzantine-generals-in-qiskit/blob/main/byzantine-agreement.ipynb) includes also a solution using 5 qubits for the case of the four generals, largely inspired by the Cabello protocol for three generals.
 
+A detailed description of the agreement process can be found in the [second notebook](https://github.com/pdc-quantum/byzantine-generals-in-qiskit/blob/main/game-scenarios-byzantine-agreement.ipynb).
+
+A hardware demo for this solution is presented in the [third notebook](https://github.com/pdc-quantum/byzantine-generals-in-qiskit/blob/main/hardware-demo-four-generals.ipynb).
+
 ### Solutions using pair of qubits each mapped to a qutrit or a ququatrit:
 
-These solutions are presented in the [second notebook](https://github.com/pdc-quantum/byzantine-generals-in-qiskit/blob/main/qu-n-it-byzantine-agreement.ipynb). 
+These solutions are presented in the [last notebook](https://github.com/pdc-quantum/byzantine-generals-in-qiskit/blob/main/qu-n-it-byzantine-agreement.ipynb).
+However, the noisy system solution for four generals is not possible at this time, because of the depth of the circuit.
 WIP: code in this second notebook not yet including use of hypergeometric distributions or distances for demasking traitors.
 
